@@ -1,0 +1,30 @@
+{
+  "version": "4.7.2-stable",
+  "engine_source": "https://godot-releases.nbg1.your-objectstorage.com/4.7.2-stable/Godot_v4.7.2-stable_win64.exe.zip",
+  "engine_sha256": "731980f9608d61333e5baf54a2ef17210acc7a538446c0cb9969f002aca1e953",
+  "engine_sha256_source": "GitHub release asset digest",
+  "template_source": "https://godot-releases.nbg1.your-objectstorage.com/4.7.2-stable/Godot_v4.7.2-stable_export_templates.tpz",
+  "template_validation": "Per-entry ZIP CRC32 verified by zipfile over HTTPS; full archive SHA256 not checked because only Windows entries downloaded",
+  "templates": [
+    {
+      "file": "templates\\4.7.2.stable\\windows_release_x86_64.exe",
+      "sha256": "d34d36f3be1a6c49c56525ae86469b92e4f417ddf0b43cf00dd80c385c4b0562",
+      "zip_crc32": "0x1ee85628",
+      "size": 109268480
+    },
+    {
+      "file": "templates\\4.7.2.stable\\windows_debug_x86_64.exe",
+      "sha256": "51498b72b3a237f882ebd7d1787f06a4bc1eaf0572daab93837adcfd3cfdc107",
+      "zip_crc32": "0xaa0a0164",
+      "size": 103176704
+    },
+    {
+      "file": "templates\\4.7.2.stable\\version.txt",
+      "sha256": "38885c88f75abbc797a1db7559719800279a00cfb9fa8b2e2868a7f6f84bad2e",
+      "zip_crc32": "0x44969cbd",
+      "size": 13
+    }
+  ],
+  "license": "MIT",
+  "license_source": "https://raw.githubusercontent.com/godotengine/godot/4.7.2-stable/LICENSE.txt"
+}

@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/furniture/furniture.gd" id="1"]
+
+[node name="pc_desk_secondary" type="Node3D"]
+script = ExtResource("1")
+kind = "pc_desk"
+desk_variant = "shelf"
+pc_name = "Máy tính Đức"
+include_chair = false

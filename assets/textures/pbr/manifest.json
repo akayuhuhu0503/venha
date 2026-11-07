@@ -1,0 +1,128 @@
+{
+  "oak": {
+    "resolution": [
+      1024,
+      1024
+    ],
+    "texture_width_m": 0.72,
+    "height_amplitude_m": 0.00018,
+    "roughness_range": [
+      0.457,
+      0.613
+    ],
+    "description": "Neutral pale oak veneer, fine longitudinal pores and sparse understated knots.",
+    "subtle_cavity_ao": true
+  },
+  "marble": {
+    "resolution": [
+      1024,
+      1024
+    ],
+    "texture_width_m": 1.2,
+    "height_amplitude_m": 1.8e-05,
+    "roughness_range": [
+      0.377,
+      0.441
+    ],
+    "description": "Off-white ceramic marble print, sparse fine gray veins, no dark baked grout.",
+    "subtle_cavity_ao": false
+  },
+  "plaster": {
+    "resolution": [
+      1024,
+      1024
+    ],
+    "texture_width_m": 0.8,
+    "height_amplitude_m": 0.00016,
+    "roughness_range": [
+      0.85,
+      0.91
+    ],
+    "description": "Neutral warm-white painted fine plaster; extremely subtle diffuse variation.",
+    "subtle_cavity_ao": false
+  },
+  "fabric": {
+    "resolution": [
+      512,
+      512
+    ],
+    "texture_width_m": 0.18,
+    "height_amplitude_m": 0.00031,
+    "roughness_range": [
+      0.84,
+      0.92
+    ],
+    "description": "Neutral woven cotton twill tint base, with physically small warp and weft.",
+    "subtle_cavity_ao": true
+  },
+  "chair_mesh": {
+    "resolution": [
+      512,
+      512
+    ],
+    "texture_width_m": 0.1,
+    "height_amplitude_m": 0.00022,
+    "roughness_range": [
+      0.87,
+      0.87
+    ],
+    "description": "Dark polyester chair mesh with actual alpha-cut holes; 5 mm woven grid.",
+    "subtle_cavity_ao": true
+  },
+  "granite": {
+    "resolution": [
+      1024,
+      1024
+    ],
+    "texture_width_m": 0.6,
+    "height_amplitude_m": 9e-05,
+    "roughness_range": [
+      0.28,
+      0.34
+    ],
+    "description": "Dark polished granite with fine pale mineral flecks; not glossy black plastic.",
+    "subtle_cavity_ao": true
+  },
+  "brushed_metal": {
+    "resolution": [
+      512,
+      512
+    ],
+    "texture_width_m": 0.3,
+    "height_amplitude_m": 1.2e-05,
+    "roughness_range": [
+      0.285,
+      0.4
+    ],
+    "description": "Neutral stainless steel, fine directional machining marks and restrained roughness.",
+    "subtle_cavity_ao": false
+  },
+  "bath_brown": {
+    "resolution": [
+      1024,
+      1024
+    ],
+    "texture_width_m": 0.6,
+    "height_amplitude_m": 0.0001,
+    "roughness_range": [
+      0.548,
+      0.628
+    ],
+    "description": "Muted warm-brown bathroom porcelain, fine stone grain and matte floor finish; grout is geometry.",
+    "subtle_cavity_ao": false
+  },
+  "bath_ivory": {
+    "resolution": [
+      1024,
+      1024
+    ],
+    "texture_width_m": 0.6,
+    "height_amplitude_m": 5e-05,
+    "roughness_range": [
+      0.381,
+      0.417
+    ],
+    "description": "Warm ivory glazed bathroom wall tile, restrained non-flat surface; grout is geometry.",
+    "subtle_cavity_ao": false
+  }
+}

@@ -1,0 +1,87 @@
+[gd_scene load_steps=17 format=3]
+[ext_resource type="Script" path="res://scripts/environment/room.gd" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/furniture/kitchen.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/furniture/washer.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://scenes/furniture/wardrobe.tscn" id="4"]
+[ext_resource type="PackedScene" path="res://scenes/furniture/clothes_rack.tscn" id="5"]
+[ext_resource type="PackedScene" path="res://scenes/furniture/fridge.tscn" id="6"]
+[ext_resource type="PackedScene" path="res://scenes/furniture/fan.tscn" id="7"]
+[ext_resource type="PackedScene" path="res://scenes/furniture/pc_desk.tscn" id="8"]
+[ext_resource type="PackedScene" path="res://scenes/furniture/aquarium.tscn" id="9"]
+[ext_resource type="PackedScene" path="res://scenes/furniture/bed.tscn" id="10"]
+[ext_resource type="PackedScene" path="res://scenes/furniture/bathroom.tscn" id="11"]
+[ext_resource type="PackedScene" path="res://scenes/furniture/cat_corner.tscn" id="12"]
+[ext_resource type="PackedScene" path="res://scenes/furniture/litter_box.tscn" id="13"]
+[ext_resource type="PackedScene" path="res://scenes/furniture/office_chair.tscn" id="14"]
+[ext_resource type="Resource" path="res://scenes/room/layout_v4.tres" id="15"]
+[ext_resource type="PackedScene" path="res://scenes/furniture/cat_bed.tscn" id="16"]
+
+[node name="Room" type="Node3D"]
+script = ExtResource("1")
+layout = ExtResource("15")
+
+[node name="Kitchen" parent="." instance=ExtResource("2")]
+position = Vector3(1.2278, 0, -0.7078)
+rotation = Vector3(0, -1.5707963, 0)
+
+[node name="WashingMachine" parent="." instance=ExtResource("3")]
+position = Vector3(1.2457, 0, -1.4088)
+rotation = Vector3(0, -1.5707963, 0)
+
+[node name="Wardrobe" parent="." instance=ExtResource("4")]
+position = Vector3(0.202, 0, -3.203)
+rotation = Vector3(0, 1.5707963, 0)
+
+[node name="ClothesRack" parent="." instance=ExtResource("5")]
+position = Vector3(0.208, 0, -1.65)
+rotation = Vector3(0, 1.5707963, 0)
+
+[node name="Fridge" parent="." instance=ExtResource("6")]
+position = Vector3(1.7827, 0, -3.2136)
+rotation = Vector3(0, 3.1415927, 0)
+
+[node name="StandingFan" parent="." instance=ExtResource("7")]
+position = Vector3(1.3885, 0, -3.8776)
+rotation = Vector3(0, 1.5707963, 0)
+
+[node name="Computer01" parent="." instance=ExtResource("8")]
+position = Vector3(3.412, 0, -4.4628)
+rotation = Vector3(0, -1.5707963, 0)
+pc_name = "Máy tính của tôi"
+desk_variant = "primary"
+include_chair = false
+
+[node name="Computer02" parent="." instance=ExtResource("8")]
+position = Vector3(2.9007, 0, -3.2724)
+rotation = Vector3(0, 3.1415927, 0)
+pc_name = "Máy tính Đức"
+desk_variant = "shelf"
+include_chair = false
+
+[node name="Chair01" parent="." instance=ExtResource("14")]
+position = Vector3(2.8573, 0, -4.4728)
+rotation = Vector3(0, -1.5707963, 0)
+
+[node name="Chair02" parent="." instance=ExtResource("14")]
+position = Vector3(2.788, 0, -3.8875)
+rotation = Vector3(0, 3.1415927, 0)
+
+[node name="Aquarium" parent="." instance=ExtResource("9")]
+position = Vector3(3.412, 0.795, -4.9886)
+rotation = Vector3(0, -1.5707963, 0)
+
+[node name="Bedding" parent="." instance=ExtResource("10")]
+position = Vector3(2.736, 2.2805, -4.4232)
+
+[node name="BathroomFittings" parent="." instance=ExtResource("11")]
+position = Vector3(1.54, 0, -2.955)
+
+[node name="BongBowls" parent="." instance=ExtResource("12")]
+position = Vector3(0.4292, 0, -4.3636)
+
+[node name="LitterBox" parent="." instance=ExtResource("13")]
+position = Vector3(-0.20, 0, -1.0)
+metadata/placement_status = "Small prop provisionally placed; no measured anchor in v4"
+
+[node name="BongBed" parent="." instance=ExtResource("16")]
+position = Vector3(0.8836, 0, -4.5918)

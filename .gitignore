@@ -1,0 +1,20 @@
+.godot/
+build/
+tools/godot/
+tools/templates/
+tools/downloads/
+*.log
+.history/
+7150_PHONG_3D_SUA_LOI_DI_WC_v4.zip
+
+# Local reference photos and original reference viewer (contains embedded photos).
+assets/reference/
+assets/layout/room_v4/*
+!assets/layout/room_v4/7150_ROOM_LAYOUT_SOURCE.json
+!assets/layout/room_v4/7150_PHONG_TRO_LAYOUT_v4.glb
+!assets/layout/room_v4/7150_PHONG_TRO_LAYOUT_v4.glb.import
+!assets/layout/room_v4/build_room_v4.py
+.env
+.env.*
+*.pem
+*.key

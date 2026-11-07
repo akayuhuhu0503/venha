@@ -1,0 +1,2 @@
+# Preserve the supplied generator verbatim, including its original whitespace.
+assets/layout/room_v4/build_room_v4.py -whitespace
